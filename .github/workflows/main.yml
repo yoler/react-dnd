@@ -18,5 +18,6 @@ jobs:
       - name: Deploy # 将打包内容发布到 github page
         uses: peaceiris/actions-gh-pages@v3 # 使用别人写好的 actions
         with: # 自定义环境变量
+          personal_token: ${{ secrets.DND }}
           github_token: ${{ secrets.DND }}
           publish_dir: ./public
