@@ -21,4 +21,3 @@ jobs:
           personal_token: ${{ secrets.DND }}
           github_token: ${{ secrets.DND }}
           publish_dir: ./public
-          publish_branch: main
