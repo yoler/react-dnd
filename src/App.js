@@ -70,7 +70,6 @@ function App() {
   function handleDragEnd(event) {
     setActiveId(null);
     const {active, over} = event;
-    
     if (active.id !== over.id) {
       setItems((items) => {
         const oldIndex = items.indexOf(active.id);
