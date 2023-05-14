@@ -2,6 +2,7 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yoler.github.io/react-dnd",
   "dependencies": {
     "@dnd-kit/sortable": "^7.0.2",
     "@testing-library/jest-dom": "^5.16.5",
