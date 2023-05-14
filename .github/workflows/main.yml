@@ -20,4 +20,4 @@ jobs:
         with: # 自定义环境变量
           personal_token: ${{ secrets.DND }}
           github_token: ${{ secrets.DND_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build
